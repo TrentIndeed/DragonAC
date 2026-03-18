@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520">
+  <defs>
+    <filter id="dropshadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+    <!-- Green gradient matching the real logo -->
+    <radialGradient id="dragonGrad" cx="42%" cy="35%" r="68%">
+      <stop offset="0%"   stop-color="#6bd55a"/>
+      <stop offset="55%"  stop-color="#4ab83a"/>
+      <stop offset="100%" stop-color="#2d7d22"/>
+    </radialGradient>
+    <radialGradient id="dragonGradDark" cx="50%" cy="50%" r="60%">
+      <stop offset="0%"   stop-color="#4ab83a"/>
+      <stop offset="100%" stop-color="#246e1a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ── BODY: lower coil (thick U-shape base) ── -->
+  <!-- Outer coil ring - bottom arc -->
+  <path d="M 100 340 Q 80 430 150 470 Q 260 520 370 470 Q 440 435 430 340" fill="#246e1a" stroke="#1a5012" stroke-width="2"/>
+  <!-- Inner coil fill -->
+  <path d="M 130 340 Q 114 416 170 450 Q 260 492 350 452 Q 408 420 400 340" fill="url(#dragonGrad)" stroke="#1a5012" stroke-width="1.5"/>
+
+  <!-- ── TAIL: rises on the right, curves upward ── -->
+  <path d="M 400 340 Q 430 280 450 230 Q 468 185 460 155 Q 453 130 438 118 Q 428 112 415 116 Q 400 122 395 138 Q 390 155 398 172 Q 408 192 402 215 Q 394 245 382 280 Q 368 315 355 340"
+        fill="url(#dragonGrad)" stroke="#1a5012" stroke-width="2"/>
+  <!-- Tail tip spikes -->
+  <path d="M 440 130 L 452 110 L 448 132Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 454 148 L 468 130 L 462 152Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 460 168 L 474 155 L 466 176Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+
+  <!-- ── SPINE SPIKES along top of body ── -->
+  <!-- Left side of coil top -->
+  <path d="M 140 340 L 128 310 L 150 334Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 120 355 L 104 326 L 126 349Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 108 375 L 90 350 L 112 370Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 104 398 L 84 377 L 108 394Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+
+  <!-- Right side tail spikes -->
+  <path d="M 380 295 L 394 270 L 384 296Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 392 268 L 406 244 L 396 270Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 404 244 L 418 220 L 408 246Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 416 220 L 430 198 L 418 222Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+
+  <!-- ── NECK connecting body to head ── -->
+  <path d="M 130 340 Q 120 290 130 250 Q 140 210 165 185 Q 185 165 210 155 Q 230 148 248 150" fill="url(#dragonGrad)" stroke="#1a5012" stroke-width="2"/>
+  <!-- Neck spine spikes -->
+  <path d="M 136 298 L 120 278 L 140 295Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 130 272 L 114 252 L 134 268Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 136 248 L 122 228 L 140 244Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 148 226 L 136 206 L 154 222Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 163 208 L 152 188 L 168 205Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+
+  <!-- ── HEAD ── (facing left, large) -->
+  <!-- Head base mass -->
+  <path d="M 50 175 Q 48 140 68 118 Q 88 96 118 90 Q 148 84 170 98 Q 190 112 200 138 Q 210 164 200 188 Q 190 212 168 224 Q 148 234 125 228 Q 100 222 80 205 Q 58 188 50 175Z" fill="url(#dragonGrad)" stroke="#1a5012" stroke-width="2.5"/>
+
+  <!-- Snout / jaw extension -->
+  <path d="M 50 175 Q 30 168 18 178 Q 6 190 12 206 Q 18 222 36 226 Q 56 230 72 218 Q 85 208 80 194Z" fill="url(#dragonGrad)" stroke="#1a5012" stroke-width="2"/>
+
+  <!-- Lower jaw (open mouth gap) -->
+  <path d="M 18 210 Q 28 228 48 232 Q 66 236 80 226 Q 90 218 88 208" fill="#1a5012" stroke="#0f3209" stroke-width="1.5"/>
+
+  <!-- Teeth (upper) -->
+  <rect x="20" y="196" width="8" height="14" rx="2" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  <rect x="32" y="193" width="8" height="16" rx="2" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  <rect x="44" y="190" width="7" height="14" rx="2" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  <rect x="55" y="188" width="7" height="13" rx="2" fill="white" stroke="#ccc" stroke-width="0.5"/>
+
+  <!-- Teeth (lower) -->
+  <rect x="22" y="218" width="7" height="12" rx="2" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  <rect x="34" y="220" width="7" height="11" rx="2" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  <rect x="46" y="221" width="6" height="10" rx="2" fill="white" stroke="#ccc" stroke-width="0.5"/>
+
+  <!-- Tongue -->
+  <path d="M 14 216 Q 22 224 30 220 Q 26 230 18 232 Q 10 234 8 224 Q 6 214 14 216Z" fill="#cc2244"/>
+  <path d="M 30 220 Q 36 228 34 236" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Nostril -->
+  <ellipse cx="30" cy="182" rx="4" ry="3" fill="#1a5012" opacity="0.6"/>
+
+  <!-- Eye -->
+  <ellipse cx="120" cy="116" rx="14" ry="13" fill="#0f2a08"/>
+  <ellipse cx="120" cy="116" rx="11" ry="10" fill="#1e6b14"/>
+  <ellipse cx="121" cy="116" rx="6"  ry="7"  fill="#0a1a06"/>
+  <circle  cx="124" cy="112" r="3"   fill="rgba(255,255,255,0.75)"/>
+
+  <!-- Brow ridge (angry look) -->
+  <path d="M 106 102 Q 116 96 130 100" stroke="#1a5012" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M 108 104 Q 118 98 132 102" stroke="#0f3209" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Head scales (forehead) -->
+  <path d="M 128 90 Q 138 82 148 90 Q 138 96 128 90Z" fill="rgba(255,255,255,0.12)"/>
+  <path d="M 148 90 Q 158 82 168 90 Q 158 96 148 90Z" fill="rgba(255,255,255,0.10)"/>
+  <path d="M 112 104 Q 120 97 128 104 Q 120 109 112 104Z" fill="rgba(255,255,255,0.10)"/>
+
+  <!-- Head spikes / horns on top -->
+  <path d="M 130 84 Q 138 62 142 52 Q 146 66 140 86Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1.5"/>
+  <path d="M 148 88 Q 158 66 162 56 Q 165 70 158 90Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1.5"/>
+  <path d="M 164 96 Q 176 76 180 68 Q 182 82 174 98Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1.5"/>
+
+  <!-- Back-of-head spikes -->
+  <path d="M 190 130 Q 208 114 214 106 Q 214 122 200 136Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 196 150 Q 214 136 220 128 Q 218 144 206 158Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+  <path d="M 200 172 Q 218 160 224 152 Q 222 168 210 180Z" fill="#2d7d22" stroke="#1a5012" stroke-width="1"/>
+
+  <!-- ── TEXT ── -->
+  <!-- DRAGON -->
+  <text x="260" y="370"
+    text-anchor="middle"
+    font-family="Arial Black, Arial, sans-serif"
+    font-weight="900"
+    font-size="100"
+    fill="white"
+    stroke="#111"
+    stroke-width="6"
+    paint-order="stroke"
+    letter-spacing="-2">DRAGON</text>
+
+  <!-- A/C -->
+  <text x="222" y="450"
+    text-anchor="middle"
+    font-family="Arial Black, Arial, sans-serif"
+    font-weight="900"
+    font-size="90"
+    fill="white"
+    stroke="#111"
+    stroke-width="6"
+    paint-order="stroke"
+    letter-spacing="-2">A/C</text>
+
+  <!-- LLC -->
+  <text x="370" y="450"
+    text-anchor="middle"
+    font-family="Arial Black, Arial, sans-serif"
+    font-weight="900"
+    font-size="46"
+    fill="white"
+    stroke="#111"
+    stroke-width="4"
+    paint-order="stroke">LLC</text>
+</svg>
