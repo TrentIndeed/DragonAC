@@ -584,6 +584,75 @@ button.btn { cursor: pointer; }
 .services-bottom-cta strong { color: var(--text); }
 
 /* ══════════════════════════════
+   PROMOTIONS
+══════════════════════════════ */
+.promos-section { border-top: 1px solid var(--border); }
+.promos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 760px;
+  margin-inline: auto;
+}
+.promo-card {
+  position: relative;
+  padding: 32px 28px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.promo-card-featured {
+  border-color: var(--green-ring);
+  background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface) 100%);
+  box-shadow: 0 0 0 1px var(--green-ring), var(--shadow-md);
+}
+.promo-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--green-dim);
+  border: 1px solid var(--green-ring);
+  color: var(--green);
+  font-size: 0.71rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  width: fit-content;
+}
+.promo-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: -0.02em;
+}
+.promo-price {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+.promo-price sup {
+  font-size: 1.4rem;
+  font-weight: 700;
+  vertical-align: super;
+  letter-spacing: 0;
+}
+.promo-desc {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.7;
+  flex: 1;
+}
+.promo-card .btn { margin-top: auto; }
+
+@media (max-width: 640px) {
+  .promos-grid { grid-template-columns: 1fr; }
+}
+
+/* ══════════════════════════════
    HOW IT WORKS
 ══════════════════════════════ */
 .how-section { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--bg-raised); }
