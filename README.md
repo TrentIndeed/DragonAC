@@ -1,5 +1,8 @@
 # Dragon A/C — HVAC landing page
 
+![Dragon A/C landing page](docs/screenshot.png)
+*The live landing page - hero offer, transparent pricing, and a lead form.*
+
 A fast, conversion-focused landing page for **Dragon A/C**, a North Texas HVAC
 business. Hand-written static site (HTML/CSS) deployed on **Cloudflare** via Wrangler.
 
